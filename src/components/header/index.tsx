@@ -1,4 +1,5 @@
 import { Logo, LogoSvg } from "../../assets/icons/LogoSvg";
+import { MenuIcon } from "../../assets/icons/MenuIcon";
 import { ModeIcon } from "../../assets/icons/ModeIcon";
 import Buttons from "../modules/button";
 import NavItems from "../modules/NavItems";
@@ -26,6 +27,8 @@ const Header = () => {
           type="button"
         />
         <Buttons title="Sign Up" type="button" />
+
+        <MenuIcon />
 
         <button className="cursor-pointer" onClick={ModeClick}>
           <ModeIcon />
