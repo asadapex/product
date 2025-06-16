@@ -1,14 +1,14 @@
 import { Logo, LogoSvg } from "../../assets/icons/LogoSvg";
 import { MenuIcon } from "../../assets/icons/MenuIcon";
 import { ModeIcon } from "../../assets/icons/ModeIcon";
-import Buttons from "../modules/button";
-import NavItems from "../modules/NavItems";
+import Buttons from "../../modules/button";
+import NavItems from "../../modules/NavItems";
 
 const Header = () => {
   const navList = ["Products", "Customers", "Pricing", "Resources"];
   const ModeClick = () => document.body.classList.toggle("mode");
   return (
-    <div className="w-full h-[80px] px-[145px] py-[19px] flex justify-between items-center">
+    <div className="containers py-5 flex justify-between items-center">
       <a className="flex gap-[16px] items-center leading-[28px]" href="/">
         <Logo />
         <LogoSvg />
